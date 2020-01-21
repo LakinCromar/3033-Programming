@@ -75,5 +75,9 @@ namespace Example1
             }
             return sum;
         }
+        static void DatabaseStuff()
+        {
+            //In slides and he'll post code on canvas
+        }
     }
 }
