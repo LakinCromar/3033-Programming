@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFFFAEAE">
+        <Label Content="Name" HorizontalAlignment="Left" Margin="29,111,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="29,176,0,0" VerticalAlignment="Top"/>
+        <Label Content="ZipCode" HorizontalAlignment="Left" Margin="29,241,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TBName" HorizontalAlignment="Left" Margin="110,115,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="TBAddress" HorizontalAlignment="Left" Margin="110,176,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TBZipcode" HorizontalAlignment="Left" Margin="110,245,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="LB" Margin="326,61,41,94" SelectionChanged="ListBox_SelectionChanged" Background="#FFFAAAAA" FontFamily="Comic Sans MS" FontSize="16"/>
+        <Button Content="Click for a Surprise" HorizontalAlignment="Left" Margin="110,303,0,0" VerticalAlignment="Top" Height="37" Width="120" Click="Button_Click" FontFamily="Impact" FontSize="11"/>
+        <Label Content="TELL ME WHERE YOU LIVE" HorizontalAlignment="Left" Margin="71,34,0,0" VerticalAlignment="Top" FontFamily="Impact" FontSize="22" Height="51" Width="317"/>
+
+    </Grid>
+</Window>
