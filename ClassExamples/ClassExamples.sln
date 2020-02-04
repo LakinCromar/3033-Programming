@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "Example1\DataAccess.csproj", "{BEB0F6C1-6C42-4523-9EF7-E203441297C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Review", "ConsoleApp1\Review.csproj", "{C7EBDD12-425D-4400-B1FA-9C8F5C06075C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_FileProcess", "WPF_FileProcess\WPF_FileProcess.csproj", "{A1E76090-5219-41AD-8FE5-D9B0D608DC40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C7EBDD12-425D-4400-B1FA-9C8F5C06075C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7EBDD12-425D-4400-B1FA-9C8F5C06075C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7EBDD12-425D-4400-B1FA-9C8F5C06075C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E76090-5219-41AD-8FE5-D9B0D608DC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E76090-5219-41AD-8FE5-D9B0D608DC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E76090-5219-41AD-8FE5-D9B0D608DC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E76090-5219-41AD-8FE5-D9B0D608DC40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
