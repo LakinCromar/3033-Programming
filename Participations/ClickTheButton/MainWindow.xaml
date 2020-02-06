@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClickTheButton"
         mc:Ignorable="d"
-        Title="mainwind" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="grdMain">
         <Button x:Name="submitbtn" Content="Button" HorizontalAlignment="Left" Margin="204,249,0,0" VerticalAlignment="Top" Height="68" Width="128" MouseEnter="Button_MouseEnter"/>
         <Label Content="Email:" HorizontalAlignment="Left" Margin="155,181,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.586,0.744"/>
