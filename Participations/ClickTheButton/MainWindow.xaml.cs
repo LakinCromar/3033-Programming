@@ -27,8 +27,8 @@ namespace ClickTheButton
 
         private void Button_MouseEnter(object sender, MouseEventArgs e)
         {
-            int x = Convert.ToInt32(grdMain.ActualWidth - submitbtn.Width);
-            int y = Convert.ToInt32(grdMain.ActualHeight - submitbtn.Height);
+            int x = Convert.ToInt32(mainwind.ActualWidth - submitbtn.Width);
+            int y = Convert.ToInt32(mainwind.ActualHeight - submitbtn.Height);
             Random rand = new Random();
         
             //double y = grdMain.ActualWidth;
@@ -43,6 +43,11 @@ namespace ClickTheButton
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
         {
 
         }
