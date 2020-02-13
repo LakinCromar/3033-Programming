@@ -1,0 +1,20 @@
+﻿<Window x:Class="Pokemon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pokemon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lstPokies" Margin="18,42,504,85" SelectionChanged="lstPokies_SelectionChanged"/>
+        <Button x:Name="btnpokie" Content="Choose Pokemon" HorizontalAlignment="Left" Margin="86,371,0,0" VerticalAlignment="Top" Height="36" Width="119" Click="btnpokie_Click"/>
+        <Label Content="Pokemon" HorizontalAlignment="Left" Margin="226,0,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="36"/>
+        <TextBox x:Name="txth" HorizontalAlignment="Left" Margin="438,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="29"/>
+        <Label Content="Height " HorizontalAlignment="Left" Margin="362,90,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Weight" HorizontalAlignment="Left" Margin="363,155,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="txtwght" HorizontalAlignment="Left" Margin="438,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="26"/>
+        <Image x:Name="img" HorizontalAlignment="Left" Height="178" Margin="554,51,0,0" VerticalAlignment="Top" Width="202"/>
+
+    </Grid>
+</Window>
