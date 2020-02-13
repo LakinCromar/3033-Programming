@@ -57,7 +57,7 @@ namespace Pokemon
             txth.Text = Convert.ToString(pokemonAPI2.height);
             txtwght.Text = Convert.ToString(pokemonAPI2.weight);
 
-            //img.Source = new BitmapImage(new Uri(lstPokies.SelectedItem.front_defult));
+            img.Source = new BitmapImage(new Uri(pokemonAPI2.sprites.front_default));
         }
     }
 }
