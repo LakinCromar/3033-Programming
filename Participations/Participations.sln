@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClickTheButton", "ClickTheB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemon", "Pokemon\Pokemon.csproj", "{FCDFFEA5-A963-49CC-8223-1416A2C1173F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOT", "GOT\GOT.csproj", "{89A94DE5-4CEB-408F-B752-B86039F0B7E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOT", "GOT\GOT.csproj", "{89A94DE5-4CEB-408F-B752-B86039F0B7E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

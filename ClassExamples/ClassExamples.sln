@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Review", "ConsoleApp1\Revie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_FileProcess", "WPF_FileProcess\WPF_FileProcess.csproj", "{A1E76090-5219-41AD-8FE5-D9B0D608DC40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_JSON", "WPF_JSON\WPF_JSON.csproj", "{83F3B84C-B927-4776-BE13-656EF0481F3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_JSON", "WPF_JSON\WPF_JSON.csproj", "{83F3B84C-B927-4776-BE13-656EF0481F3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Example", "MVC_Example\MVC_Example.csproj", "{39EABD8A-95C3-4D31-A504-3E8032847CEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{83F3B84C-B927-4776-BE13-656EF0481F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83F3B84C-B927-4776-BE13-656EF0481F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F3B84C-B927-4776-BE13-656EF0481F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39EABD8A-95C3-4D31-A504-3E8032847CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EABD8A-95C3-4D31-A504-3E8032847CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EABD8A-95C3-4D31-A504-3E8032847CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EABD8A-95C3-4D31-A504-3E8032847CEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
