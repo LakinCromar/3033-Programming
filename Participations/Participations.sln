@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "participation", "Participations\participation.csproj", "{03A7ADEF-A4CC-4E17-9F13-C9521D4CBB1B}"
 EndProject
@@ -15,6 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOT", "GOT\GOT.csproj", "{8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{106ADAF7-9377-4708-9AD8-C6E46F18860A}"
 	ProjectSection(SolutionItems) = preProject
+		(P)HTML+CSS.html = (P)HTML+CSS.html
 		HTMLPage1.html = HTMLPage1.html
 	EndProjectSection
 EndProject
