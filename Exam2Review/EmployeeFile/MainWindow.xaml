@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <ListBox x:Name="lstSalary" Margin="400,125,0,0"/>
+        <ListBox x:Name="lstEmail" Margin="0,125,405,0"/>
+        <TextBox x:Name="txtavgsal" HorizontalAlignment="Left" Margin="275,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="22" FontFamily="Arial Black" FontSize="14"/>
+        <Label Content="Emails @dropbox.com" HorizontalAlignment="Left" Margin="98,97,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+        <Label Content="Average Salary of Empolyees" HorizontalAlignment="Left" Margin="23,44,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14"/>
+        <Label Content="Salaries over $70,000" HorizontalAlignment="Left" Margin="513,97,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14"/>
+        <Label Content="Employee File I/O" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="16"/>
 
     </Grid>
 </Window>
