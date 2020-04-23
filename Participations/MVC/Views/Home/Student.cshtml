@@ -1,0 +1,80 @@
+﻿@model MVC.Models.Student
+
+@{
+    ViewBag.Title = "Student";
+}
+
+<h2>Student</h2>
+
+@*<div>
+        <h4>Student</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.FirstName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.LastName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LastName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.FavoriteColor)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.FavoriteColor)
+            </dd>
+
+        </dl>
+    </div>*@
+@foreach (var item in Model)
+{
+    <div class="card" style="background-color:lightblue; color:white; float:left; margin:7px; height:10%; width:20%; border-color:black;">
+        <h4 style="background-color:pink; color:black; font-size:30%; text-align:center; text-decoration:dashed">@item.FirstName @item.LastName</h4>
+        <nav class="CardInfo">
+            Name =  @Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.Course.LastName)
+            Favorite Color = @Html.DisplayFor(modelItem => item.Student.FavoriteColor)
+            @Html.ActionLink("Details", "Details", new { id = item.StudentID }) |
+        </nav>
+    </div>
+}
+
+@*<p>
+                @Html.ActionLink("Create New", "Create")
+            </p>
+        <table class="table">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    @*<td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.RegistrationID }) |
+
+                            @Html.ActionLink("Delete", "Delete", new { id = item.RegistrationID })
+                        </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+    <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.StudentID }) |
+            @Html.ActionLink("Back to List", "Index")
+        </p>*@
