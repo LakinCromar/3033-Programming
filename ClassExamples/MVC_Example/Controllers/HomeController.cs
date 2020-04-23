@@ -8,11 +8,12 @@ namespace MVC_Example.Controllers
 {
     public class HomeController : Controller
     {
+        //home/index 
         public ActionResult Index()
         {
             return View();
         }
-
+        //home/about
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -26,5 +27,9 @@ namespace MVC_Example.Controllers
 
             return View();
         }
+        for (int i = 0; i<length; i++)
+			{
+
+			}
     }
 }

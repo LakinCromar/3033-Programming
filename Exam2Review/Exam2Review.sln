@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONExample", "JSONExample\JSONExample.csproj", "{A110607D-3517-4DCD-8367-182C87B76AB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeFile", "EmployeeFile\EmployeeFile.csproj", "{B73ECD2D-3D0A-45B8-A470-0CC94FE8B527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeFile", "EmployeeFile\EmployeeFile.csproj", "{B73ECD2D-3D0A-45B8-A470-0CC94FE8B527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{1224B724-E70D-417D-9FE7-5B44BAD7FDBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B73ECD2D-3D0A-45B8-A470-0CC94FE8B527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B73ECD2D-3D0A-45B8-A470-0CC94FE8B527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B73ECD2D-3D0A-45B8-A470-0CC94FE8B527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1224B724-E70D-417D-9FE7-5B44BAD7FDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1224B724-E70D-417D-9FE7-5B44BAD7FDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1224B724-E70D-417D-9FE7-5B44BAD7FDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1224B724-E70D-417D-9FE7-5B44BAD7FDBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

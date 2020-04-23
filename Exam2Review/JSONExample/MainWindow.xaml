@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <ListBox x:Name="lstPokemon" Margin="0,51,491,72"/>
+        <Label Content="Pokemon" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Bernard MT Condensed" FontSize="22" Height="39" Width="96"/>
+        <Button x:Name="btnPoke" Content="POKEMON" HorizontalAlignment="Left" Margin="93,382,0,0" VerticalAlignment="Top" Height="29" Width="123" FontFamily="Arial Rounded MT Bold" FontSize="14" Click="Button_Click"/>
 
     </Grid>
 </Window>
