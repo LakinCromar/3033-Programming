@@ -26,17 +26,5 @@ namespace MVC.Controllers
 
             return View();
         }
-        public ActionResult Course()
-        {
-            ViewBag.Message = "Courses are listed here";
-            return View();
-        }
-        public ActionResult Student()
-        {
-            return View();
-        }
-        public ActionResult Registration()
-        {
-            return View();
-        }
+      
 }   }
